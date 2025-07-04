@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madam Ji !! Abhi bhi Ruthey Ho kya Aap !!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ff99cc;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+            position: relative;
+            overflow: hidden;
+        }
+        .container {
+            background-color: #f580d0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+            position: relative;
+            transition: transform 0.6s ease-in-out;
+        }
+        .container:hover {
+            transform: scale(1.1); 
+        }
+        h1 {
+            color: #e74c3c;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #e44242;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #2980b9;
+        }
+        .heart {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background-color: #ff69b4;
+            transform: rotate(-45deg);
+            animation: float 3s infinite ease-in-out;
+        }
+        .heart:before,
+        .heart:after {
+            content: '';
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background-color: #ff69b4;
+            border-radius: 50%;
+        }
+        .heart:before {
+            top: -30px;
+            left: 0;
+        }
+        .heart:after {
+            left: 30px;
+            top: 0;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(-45deg); }
+            50% { transform: translateY(-15px) rotate(-45deg); }
+        }
+        .heart:nth-child(1) { top: 5%; left: 10%; animation-delay: 0s; }
+        .heart:nth-child(2) { top: 15%; right: 15%; animation-delay: 0.5s; }
+        .heart:nth-child(3) { top: 25%; left: 20%; animation-delay: 1s; }
+        .heart:nth-child(4) { top: 30%; right: 30%; animation-delay: 1.5s; }
+        .heart:nth-child(5) { top: 10%; right: 5%; animation-delay: 2s; }
+        .heart:nth-child(6) { bottom: 10%; left: 10%; animation-delay: 0.5s; }
+        .heart:nth-child(7) { bottom: 15%; right: 15%; animation-delay: 1s; }
+        .heart:nth-child(8) { bottom: 25%; left: 25%; animation-delay: 1.5s; }
+        .heart:nth-child(9) { bottom: 30%; right: 30%; animation-delay: 2s; }
+        .heart:nth-child(10) { bottom: 5%; right: 5%; animation-delay: 2.5s; }
+    </style>
+</head>
+<body>
+<div class="heart"></div>
+<div class="heart"></div>
+<div class="heart"></div>
+<div class="heart"></div>
+<div class="heart"></div>
+<div class="heart"></div>
+<div class="heart"></div>
+<div class="heart"></div>
+<div class="heart"></div>
+<div class="heart"></div>
+<div class="container">
+    <h1>I'm Sorry Ji</h1>
+    <p>Dear Charu Raghav Ji,</p>
+    <p>I sincerely apologize for any discomfort my actions may have caused.I literally don't know what my action cause you in providing discomfort and hurt .It was never my intention to hurt you.</p>
+    <p>All of this because , As you are not talking to me ,I hope you can find it in your heart to forgive me. I promise to be more mindful of my actions in the future.</p>
+    <p>To express my feelings, I would like to share a song that truly resonates with my apology:</p>
+    <a href="https://www.youtube.com/watch?v=UyjL052eFAA" target="_blank">Listen to the Song</a>
+    <p>Thank you for your understanding. ❤️</p>
+    <p>Warm regards</p>
+</div>
+</body>
+</html>
